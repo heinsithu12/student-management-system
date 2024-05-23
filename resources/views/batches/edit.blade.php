@@ -9,7 +9,7 @@
         {!! csrf_field() !!}
         @method("PATCH")
         <input type="hidden" name="id" id="id" value="{{$batches->id}}" id="id" />
-        <label>Name</label></br>
+        <label>Name</label></br><br>
         <input type="text" name="name" id="name" value="{{$batches->name}}" class="form-control" ></br>
         <label>Course</label></br>
         <input type="text" name="course_id" id="course_id" class="form-control"></br>
